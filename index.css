@@ -9,3 +9,7 @@
 .nav-link{
     color: orange;
 }
+#first-section{
+    background-image: url(images/header.jpg);
+    color: white;
+}
