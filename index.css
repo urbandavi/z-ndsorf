@@ -9,6 +9,13 @@
 .nav-link{
     color: orange;
 }
+.btn-orange{
+    color: orange;
+    border-color: orange;
+    --bs-btn-hover-bg: #ffc107;
+    --bs-btn-hover-border-color:
+}
+.btn-orange:hover
 #first-section{
     background-image: url(images/header.jpg);
     color: white;
