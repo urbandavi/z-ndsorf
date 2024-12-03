@@ -1,22 +1,29 @@
+:root{
+    --orange-stile-color: orange;
+}
 .navbar-collapse{
     flex-basis: 100%;
     flex-grow: 0; 
     align-items: center;
 }
 .nav-color{
-    color: orange;
+    color: var(--orange-stile-color);
 }
 .nav-link{
-    color: orange;
+    color: var(--orange-stile-color);
 }
-.btn-orange{
-    color: orange;
-    border-color: orange;
-    --bs-btn-hover-bg: #ffc107;
-    --bs-btn-hover-border-color:
+.btn-outline-primary{
+    color: var(--orange-stile-color);
+    border-color: var(--orange-stile-color);
+    --bs-btn-hover-bg: var(--orange-stile-color);
+    --bs-btn-hover-border-color: var(--orange-stile-color) ;
+    --bs-btn-active-bg: var(--orange-stile-color); 
+    --bs-btn-active-border-color: var(--orange-stile-color);
 }
-.btn-orange:hover
-#first-section{
+#first-section-backround{
     background-image: url(images/header.jpg);
     color: white;
+}
+.blue-sec-backround{
+    background-color: rgb(186, 225, 234);
 }
