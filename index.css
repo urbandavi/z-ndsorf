@@ -1,6 +1,16 @@
 :root{
     --orange-stile-color: orange;
 }
+footer{
+    background-color: rgb(45, 45, 45);
+    color: rgb(220, 100, 0) ;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+    
+}
+footer p{
+    margin-bottom: 0rem;
+}
 .navbar-collapse{
     flex-basis: 100%;
     flex-grow: 0; 
@@ -20,10 +30,38 @@
     --bs-btn-active-bg: var(--orange-stile-color); 
     --bs-btn-active-border-color: var(--orange-stile-color);
 }
-#first-section-backround{
-    background-image: url(images/header.jpg);
-    color: white;
+.bg-secondary-subtle{
+    background-color: rgb(186, 225, 234) !important;
 }
-.blue-sec-backround{
-    background-color: rgb(186, 225, 234);
+.section-padding{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+/*
+.btn-outline-secondary{
+    --bs-btn-color: white;
+    --bs-btn-border-color: white;
+    --bs-btn-hover-color: black;
+    --bs-btn-hover-bg: white;
+    --bs-btn-hover-border-color: white;
+    --bs-btn-focus-shadow-rgb: 108, 117, 125;
+}
+*/
+
+#header-backround{
+    background-image: url(images/header.jpg);
+}
+#start-today-backroud{
+    background-image: url(images/start.jpg);
+}
+#gruppentraining-backround{
+    background-image: url(images/szemelyi.jpg);
+}
+#personal-training-backround{
+    background-image: url(images/tartos.jpg);
+}
+#pandemie-backround{
+    background-image: url(images/tartos.jpg);
+    background-size: cover;
+    
 }
