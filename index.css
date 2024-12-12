@@ -58,16 +58,6 @@ h4{
     padding-top: 10rem;
     padding-bottom: 10rem;
 }
-/*
-.btn-outline-secondary{
-    --bs-btn-color: white;
-    --bs-btn-border-color: white;
-    --bs-btn-hover-color: black;
-    --bs-btn-hover-bg: white;
-    --bs-btn-hover-border-color: white;
-    --bs-btn-focus-shadow-rgb: 108, 117, 125;
-}
-*/
 
 #header-backround{
     background-image: url(images/header.jpg);
@@ -82,21 +72,35 @@ h4{
 }
 #start-today-backroud{
     background-image: url(images/start.jpg);
+    background-position: center;
+    background-size: cover;
 }
 #gruppentraining-backround{
     background-image: url(images/szemelyi.jpg);
+    background-position: center;
+    background-size: cover;
 }
 #personal-training-backround{
     background-image: url(images/tartos.jpg);
+    background-position: center;
+    background-size: cover;
 }
 #pandemie-backround{
     background-image: url(images/tartos.jpg);
+    background-position: center;
     background-size: cover;
     
+}
+#triple-backroun .section-padding{
+    border: 1px solid gray;
 }
 #zunn-fur-dich{
     margin-bottom: 0.5rem;
 }
 #preise-und-aktuelle-btn{
-    margin: 1.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+#new-gut-drop-btn-margin button{
+    margin-top: 1rem;
 }
