@@ -62,6 +62,7 @@ h4{
 #header-backround{
     background-image: url(images/header.jpg);
     background-size: cover;
+    background-position: center;
 }
 #header-backround button{
     --bs-btn-padding-x: 1.5rem;
